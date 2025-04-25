@@ -19,5 +19,11 @@ describe('Validation', () => {
         }
     )
 
+    test('return False when value -150', () => {
+            expect(validation(-150)).toBe(false)
+        }
+    )
+
+
     }
 )
